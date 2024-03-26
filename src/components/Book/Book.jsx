@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { MdOutlineStarOutline } from "react-icons/md";
 
 const Book = ({ book }) => {
     console.log(book)
@@ -12,9 +13,13 @@ const Book = ({ book }) => {
                 <span className='btn btn-sm text-[#40A2D8] rounded-full'>{tags[0]}</span>
                 <span className='btn btn-sm text-[#40A2D8] rounded-full'>{tags[1]}</span>
             </div>
-            <div className="card-body">
-                <h2 className="card-title">Shoes!</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-body p-6 font-workSans">
+                <h2 className="card-title">{bookName} </h2>
+                <p className='font-medium text-[#131313CC] border-b-2 border-dashed pb-6'>By: {author} </p>
+            </div>
+            <div className='flex justify-between p-6 pt-0 font-medium text-[#131313CC] font-workSans'>
+                <h2>{category} </h2>
+                <h2 className='flex items-center gap-2 font-medium text-[#131313CC]'>{rating} <MdOutlineStarOutline className='text-xl'/></h2>
             </div>
         </div>
     );

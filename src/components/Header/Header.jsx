@@ -7,8 +7,8 @@ const Header = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/list">Listed Books</NavLink></li>
         <li><NavLink to="/read">Pages to Read</NavLink></li>
-        <li><NavLink to="/new">New</NavLink></li>
-        <li><NavLink to="/new">New</NavLink></li>
+        <li><NavLink to="/new1">New1</NavLink></li>
+        <li><NavLink to="/new2">New2</NavLink></li>
     </>
     return (
         <div className="navbar py-6 md:py-12 font-workSans px-0">
@@ -21,7 +21,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="btn btn-ghost md:text-4xl font-bold">Re-Vibe</a>
+                <a className="btn btn-ghost text-2xl md:text-4xl font-bold">Re-Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal space-x-1 text-lg">
