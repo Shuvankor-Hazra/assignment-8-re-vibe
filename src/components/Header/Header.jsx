@@ -7,8 +7,8 @@ const Header = () => {
         <li><NavLink to="/">Home</NavLink></li>
         <li><NavLink to="/list">Listed Books</NavLink></li>
         <li><NavLink to="/read">Pages to Read</NavLink></li>
-        <li><NavLink to="/new1">New1</NavLink></li>
-        <li><NavLink to="/new2">New2</NavLink></li>
+        <li><NavLink to="/new1">New-1</NavLink></li>
+        <li><NavLink to="/new2">New-2</NavLink></li>
     </>
     return (
         <div className="navbar py-6 md:py-12 font-workSans">

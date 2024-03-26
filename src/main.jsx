@@ -21,12 +21,13 @@ const router = createBrowserRouter([
       },
       {
         path:'/list',
-        element: <ListedBooks></ListedBooks>
+        element: <ListedBooks></ListedBooks>,
+        loader: ()=>fetch('../books.json')
       },
       {
         path: '/details/:id',
         element: <BookDetails></BookDetails>,
-        loader: ()=>fetch('books.json')
+        loader: ()=>fetch('../books.json')
       },
       {
         path:'/read',
