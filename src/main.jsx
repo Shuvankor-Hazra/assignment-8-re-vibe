@@ -31,7 +31,7 @@ const router = createBrowserRouter([
         element: <div>New -1</div>
       },
       {
-        path:'/new2',
+        path:'',
         element: <div>New -2</div>
       },
     ]
