@@ -11,7 +11,7 @@ const ErrorPage = () => {
                     <GiSkullCrossedBones />
                 </div>
                 <h2 className="text-5xl font-medium">Error Page: 404</h2>
-                <p className="text-lg font-medium">Oops! Something went wrong.</p>
+                <p className="text-lg font-medium">Oops...! Something went wrong.</p>
                 <Link to="/" className="text-green-500 underline text-lg">Go Back To Home</Link>
                 <p className="text-lg">Thank you for your patience.</p>
             </div>

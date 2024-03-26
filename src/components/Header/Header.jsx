@@ -11,7 +11,7 @@ const Header = () => {
         <li><NavLink to="/new2">New2</NavLink></li>
     </>
     return (
-        <div className="navbar py-6 md:py-12 font-workSans px-0">
+        <div className="navbar py-6 md:py-12 font-workSans">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -21,7 +21,7 @@ const Header = () => {
                         {links}
                     </ul>
                 </div>
-                <Link to="/" className="btn btn-ghost text-2xl md:text-4xl font-bold">Re-Vibe</Link>
+                <Link to="/" className="btn md:btn-lg btn-ghost text-2xl md:text-4xl font-bold">Re-Vibe</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal space-x-1 text-lg">
@@ -29,8 +29,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-2 ">
-                <a className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-white md:text-lg">Sign Up</a>
-                <a className="btn btn-sm md:btn-md lg:btn-lg bg-[#0B60B0] text-white md:text-lg">Sign In</a>
+                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-white md:text-lg">Sign Up</button>
+                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#0B60B0] text-white md:text-lg">Sign In</button>
             </div>
         </div>
     );
