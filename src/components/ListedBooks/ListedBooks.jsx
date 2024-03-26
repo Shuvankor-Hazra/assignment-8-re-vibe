@@ -13,7 +13,6 @@ const ListedBooks = () => {
 
     const allReadBooks = getToLocalStorage();
     const allWishBooks = getWishToLocalStorage();
-    console.log(books,allReadBooks,allWishBooks)
 
     for (const id of allReadBooks) {
         const allBooks = books.find((book) => parseInt(book.bookId) === parseInt(id));
@@ -37,7 +36,7 @@ const ListedBooks = () => {
             </div>
             <div className="text-center py-8">
                 <details className="dropdown">
-                    <summary className="m-1 btn">Sort By<BsChevronDoubleDown /></summary>
+                    <summary className="m-1 btn bg-[#40A2D8] text-base-200 text-lg">Sort By<BsChevronDoubleDown /></summary>
                     <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                         <li><a>Rating</a></li>
                         <li><a>Number of pages</a></li>
@@ -53,10 +52,10 @@ const ListedBooks = () => {
                         <Tab>Wishlist Books</Tab>
                     </TabList>
                     <TabPanel>
-                        <h2>Read Books</h2>
+                        <h2>Read Books:{readBooks.length} </h2>
                     </TabPanel>
                     <TabPanel>
-                        <h2>Wishlist Books</h2>
+                        <h2>Wishlist Books:{wishBooks.length} </h2>
                     </TabPanel>
                 </Tabs>
             </div>

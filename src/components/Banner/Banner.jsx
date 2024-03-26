@@ -9,7 +9,7 @@ const Banner = () => {
                 <div className="lg:pe-28 ">
                     <h1 className="text-3xl lg:text-5xl font-bold">Books to freshen up your bookshelf</h1>
                     <p className="text-lg lg:text-xl py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <Link to="/list" className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-white md:text-lg">View The List</Link>
+                    <Link to="/list" className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-base-200 md:text-lg">View The List</Link>
                 </div>
             </div>
         </div>

@@ -13,38 +13,38 @@ const BookDetails = () => {
 
     const handleAddToRead = () => {
         const getWish = getWishToLocalStorage();
-        const isWishExist = getWish.find((localId)=> parseInt(localId) === parseInt(id))
+        const isWishExist = getWish.find((localId) => parseInt(localId) === parseInt(id))
         removeWish(isWishExist);
         const getLocal = getToLocalStorage();
-        const isExist = getLocal.find((localId)=> parseInt(localId) === parseInt(id))
-        if(!isExist){
+        const isExist = getLocal.find((localId) => parseInt(localId) === parseInt(id))
+        if (!isExist) {
             saveToLocalStorage(id);
-            toast.success('Success to add read');
-        } else{
-            toast.error('Already added')
+            toast.success('Successfully add to read');
+        } else {
+            toast.error('Already added read list')
         }
     }
 
     const handleAddToWish = () => {
 
         const getToLocal = getToLocalStorage();
-        const isToExist = getToLocal.find((localId)=> parseInt(localId) === parseInt(id))
+        const isToExist = getToLocal.find((localId) => parseInt(localId) === parseInt(id))
 
-        if(!isToExist){
+        if (!isToExist) {
             const getLocal = getWishToLocalStorage();
-        const isExist = getLocal.find((localId)=> parseInt(localId)===parseInt(id))
+            const isExist = getLocal.find((localId) => parseInt(localId) === parseInt(id))
 
-        if(!isExist){
-            saveWishToLocalStorage(id);
-            toast.success('Success to add wish');
-        } else{
-            toast.error('Already added')
-        }
+            if (!isExist) {
+                saveWishToLocalStorage(id);
+                toast.success('Successfully added to wishlist!');
+            } else {
+                toast.error('Book already added wishlist!')
+            }
         } else {
-            toast.error('Already read done')
+            toast.error('Book already read done!')
         }
 
-        
+
     }
 
 
@@ -89,7 +89,8 @@ const BookDetails = () => {
                     <button onClick={handleAddToWish} className="btn btn-sm md:btn-md lg:btn-lg bg-[#0B60B0] text-white md:text-lg">Wishlist</button>
                 </div>
             </div>
-            <div><Toaster/></div>
+            <div><Toaster position="top-center"
+                reverseOrder={true} /></div>
         </div>
     );
 };

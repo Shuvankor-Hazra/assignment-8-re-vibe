@@ -29,8 +29,8 @@ const Header = () => {
                 </ul>
             </div>
             <div className="navbar-end gap-2 ">
-                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-white md:text-lg">Sign Up</button>
-                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#0B60B0] text-white md:text-lg">Sign In</button>
+                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#40A2D8] text-base-200 md:text-lg">Sign Up</button>
+                <button className="btn btn-sm md:btn-md lg:btn-lg bg-[#0B60B0] text-base-200 md:text-lg">Sign In</button>
             </div>
         </div>
     );
