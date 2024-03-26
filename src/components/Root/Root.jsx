@@ -1,9 +1,12 @@
+import { Outlet } from "react-router-dom";
+import Header from "../Header/Header";
 
 
 const Root = () => {
     return (
-        <div>
-            <h1 className='text-9xl'>Roooooooot: Re-Vibe</h1>
+        <div className="md:max-w-6xl px-3 lg:px-0 mx-auto ">
+            <Header></Header>
+            <Outlet></Outlet>
         </div>
     );
 };
