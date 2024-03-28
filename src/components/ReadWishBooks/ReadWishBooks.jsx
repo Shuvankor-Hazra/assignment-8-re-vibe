@@ -9,7 +9,7 @@ import { useNavigate } from 'react-router-dom';
 const ReadWishBooks = ({ book }) => {
     const navigate = useNavigate();
     return (
-        <div className="p-6 border rounded-lg my-10">
+        <div className="p-6 border-2 rounded-lg my-10">
             <div className="md:flex gap-6">
                 <div className='md:w-1/5'>
                     <img src={book.image} className="w-full rounded-2xl p-6 bg-base-200" />

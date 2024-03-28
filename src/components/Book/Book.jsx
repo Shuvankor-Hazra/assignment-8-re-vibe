@@ -10,7 +10,7 @@ const Book = ({ book }) => {
 
 
     return (
-        <div onClick={()=>navigate(`/details/${bookId}`)} className="card border cursor-pointer">
+        <div onClick={()=>navigate(`/details/${bookId}`)} className="card border-2 cursor-pointer">
             <figure className='m-6 p-4 rounded-2xl bg-[#F3F3F3]'><img src={image} alt="Book" /></figure>
             <div className='ms-6 flex gap-4'>
                 <span className='btn btn-sm text-[#40A2D8] rounded-full'>{tags[0]}</span>

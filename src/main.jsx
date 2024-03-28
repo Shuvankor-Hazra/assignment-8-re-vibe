@@ -8,6 +8,8 @@ import Home from './components/Home/Home';
 import ListedBooks from './components/ListedBooks/ListedBooks';
 import PagesToRead from './components/PagesToRead/PagesToRead';
 import BookDetails from './components/bookDetails/bookDetails';
+import ContactArea from './components/ContactArea/ContactArea';
+import BookClub from './components/BookClub/BookClub';
 
 const router = createBrowserRouter([
   {
@@ -35,13 +37,12 @@ const router = createBrowserRouter([
         loader: ()=>fetch('../books.json')
       },
       {
-        path:'/new1',
-        element: <div>New -1</div>,
-        loader: ()=>fetch('../books.json')
+        path:'/club',
+        element: <BookClub></BookClub>
       },
       {
-        path:'',
-        element: <div>New -2</div>
+        path:'/contact',
+        element: <ContactArea></ContactArea>
       },
     ]
   },

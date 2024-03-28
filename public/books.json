@@ -7,7 +7,7 @@
         "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
         "totalPages": 480,
         "rating": 4.5,
-        "category": "Fiction",
+        "category": "Fantasy",
         "tags": [
             "Classic",
             "Romance"
@@ -21,7 +21,7 @@
         "author": "Harper Lee",
         "image": "https://i.ibb.co/KqYJD5q/book2.png",
         "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
-        "totalPages": 136,
+        "totalPages": 336,
         "rating": 4.8,
         "category": "Fiction",
         "tags": [
@@ -85,7 +85,7 @@
         "author": "Jane Austen",
         "image": "https://i.ibb.co/phP2p7X/book6.png",
         "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
-        "totalPages": 232,
+        "totalPages": 332,
         "rating": 4.9,
         "category": "Fiction",
         "tags": [
@@ -94,5 +94,53 @@
         ],
         "publisher": "T. Egerton, Whitehall",
         "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 7,
+        "bookName": "Kill a Mockingbird",
+        "author": "Mr.Harper Lee",
+        "image": "https://i.ibb.co/KqYJD5q/book2.png",
+        "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
+        "totalPages": 366,
+        "rating": 4.7,
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Social Justice"
+        ],
+        "publisher": "S. M. Lpincot & Co.",
+        "yearOfPublishing": 1972
+    },
+    {
+        "bookId": 8,
+        "bookName": "1954 Aenskg",
+        "author": "George Orwell",
+        "image": "https://i.ibb.co/Ry3rPG8/book3.png",
+        "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
+        "totalPages": 508,
+        "rating": 4.5,
+        "category": "Fantasy",
+        "tags": [
+            "Political",
+            "Dystopian"
+        ],
+        "publisher": "Uecker & Warburg",
+        "yearOfPublishing": 1945
+    },
+    {
+        "bookId": 9,
+        "bookName": "The Rye in the Catcher",
+        "author": "P.D. Salinger",
+        "image": "https://i.ibb.co/kXThghb/book4.png",
+        "review": "Captivating from start to finish, 'The Nightingale' by Kristin Hannah is a poignant tale of love, sacrifice, and resilience set against the backdrop of World War II. Its vivid characters and gripping narrative make it an unforgettable read.",
+        "totalPages": 412,
+        "rating": 4.3,
+        "category": "Fiction",
+        "tags": [
+            "Temporary",
+            "ComingAge"
+        ],
+        "publisher": "Brown and Company",
+        "yearOfPublishing": 1958
     }
 ]

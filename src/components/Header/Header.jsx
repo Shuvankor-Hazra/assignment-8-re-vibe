@@ -4,11 +4,11 @@ import { Link, NavLink } from "react-router-dom";
 const Header = () => {
 
     const links = <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/list">Listed Books</NavLink></li>
-        <li><NavLink to="/read">Pages to Read</NavLink></li>
-        <li><NavLink to="/new1">New-1</NavLink></li>
-        <li><NavLink to="/new2">New-2</NavLink></li>
+        <li className="active:bg-[#0B60B0]"><NavLink to="/">Home</NavLink></li>
+        <li className="active:bg-[#0B60B0]"><NavLink to="/list">Listed Books</NavLink></li>
+        <li className="active:bg-[#0B60B0]"><NavLink to="/read">Pages to Read</NavLink></li>
+        <li className="active:bg-[#0B60B0]"><NavLink to="/club">Join Book Club</NavLink></li>
+        <li className="active:bg-[#0B60B0]"><NavLink to="/contact">Contact</NavLink></li>
     </>
     return (
         <div className="navbar py-6 md:py-12 font-workSans">
