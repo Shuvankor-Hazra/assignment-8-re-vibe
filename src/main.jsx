@@ -31,11 +31,13 @@ const router = createBrowserRouter([
       },
       {
         path:'/read',
-        element: <PagesToRead></PagesToRead>
+        element: <PagesToRead></PagesToRead>,
+        loader: ()=>fetch('../books.json')
       },
       {
         path:'/new1',
-        element: <div>New -1</div>
+        element: <div>New -1</div>,
+        loader: ()=>fetch('../books.json')
       },
       {
         path:'',

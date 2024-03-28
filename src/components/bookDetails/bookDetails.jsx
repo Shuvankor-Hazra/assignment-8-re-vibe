@@ -53,7 +53,7 @@ const BookDetails = () => {
             <div className=" md:w-1/2 bg-[#1313130D] p-20 md:p-36 rounded-2xl" >
                 <img className="w-full" src={book.image} alt="Book" />
             </div>
-            <div className="md:w-1/2 flex flex-col justify-between space-y-5 md:space-y-0 mt-5 md:mt-0" >
+            <div className="p-5 md:p-0 md:w-1/2 flex flex-col justify-between space-y-5 md:space-y-0 mt-5 md:mt-0" >
                 <h2 className="text-3xl md:text-4xl font-bold">{book.bookName}</h2>
                 <p className="text-xl font-medium text-[#131313CC]">By: {book.author}</p>
                 <p className="text-xl font-medium text-[#131313CC] border-y-2 py-4">{book.category}</p>
